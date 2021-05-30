@@ -1,7 +1,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 ; Promedio.asm
 
-; Levanta 16 valores de la tabla rom, los suma  y hace el promedio y el resultado lo copia en la memoria RAM 
+; Levanta 16 valores de la tabla rom, los suma  y hace el promedio. El resultado lo copia en la memoria RAM 
 ; clave para ver como declarar cosas en la ram 
  .EQU TAMANIO = 16
  .EQU ROTAR_N = 4				; (LOG(2) TAMANIO) => cantidad de veces que tengo que rotar
